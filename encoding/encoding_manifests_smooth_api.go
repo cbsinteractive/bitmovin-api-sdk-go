@@ -88,7 +88,7 @@ func (api *EncodingManifestsSmoothApi) Start(manifestId string) (*model.Bitmovin
     }
 
     var responseModel *model.BitmovinResponse
-    err := api.apiClient.Post("/encoding/manifests/smooth/{manifest_id}/start", &responseModel, reqParams)
+    err := api.apiClient.Post("/encoding/manifests/smooth/{manifest_id}/start", struct{}{}, &responseModel, reqParams)
     return responseModel, err
 }
 
@@ -108,7 +108,7 @@ func (api *EncodingManifestsSmoothApi) Stop(manifestId string) (*model.BitmovinR
     }
 
     var responseModel *model.BitmovinResponse
-    err := api.apiClient.Post("/encoding/manifests/smooth/{manifest_id}/stop", &responseModel, reqParams)
+    err := api.apiClient.Post("/encoding/manifests/smooth/{manifest_id}/stop", struct{}{}, &responseModel, reqParams)
     return responseModel, err
 }
 

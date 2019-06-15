@@ -153,7 +153,7 @@ func (api *EncodingEncodingsApi) Stop(encodingId string) (*model.BitmovinRespons
     }
 
     var responseModel *model.BitmovinResponse
-    err := api.apiClient.Post("/encoding/encodings/{encoding_id}/stop", &responseModel, reqParams)
+    err := api.apiClient.Post("/encoding/encodings/{encoding_id}/stop", struct{}{}, &responseModel, reqParams)
     return responseModel, err
 }
 

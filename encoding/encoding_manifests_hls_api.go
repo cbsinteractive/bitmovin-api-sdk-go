@@ -88,7 +88,7 @@ func (api *EncodingManifestsHlsApi) Start(manifestId string) (*model.BitmovinRes
     }
 
     var responseModel *model.BitmovinResponse
-    err := api.apiClient.Post("/encoding/manifests/hls/{manifest_id}/start", &responseModel, reqParams)
+    err := api.apiClient.Post("/encoding/manifests/hls/{manifest_id}/start", struct{}{}, &responseModel, reqParams)
     return responseModel, err
 }
 
@@ -108,7 +108,7 @@ func (api *EncodingManifestsHlsApi) Stop(manifestId string) (*model.BitmovinResp
     }
 
     var responseModel *model.BitmovinResponse
-    err := api.apiClient.Post("/encoding/manifests/hls/{manifest_id}/stop", &responseModel, reqParams)
+    err := api.apiClient.Post("/encoding/manifests/hls/{manifest_id}/stop", struct{}{}, &responseModel, reqParams)
     return responseModel, err
 }
 

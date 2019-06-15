@@ -92,7 +92,7 @@ func (api *NotificationsApi) Mute(notificationId string) (*model.BitmovinRespons
     }
 
     var responseModel *model.BitmovinResponse
-    err := api.apiClient.Post("/notifications/{notification_id}/mute", &responseModel, reqParams)
+    err := api.apiClient.Post("/notifications/{notification_id}/mute", struct{}{}, &responseModel, reqParams)
     return responseModel, err
 }
 
@@ -102,7 +102,7 @@ func (api *NotificationsApi) Unmute(notificationId string) (*model.BitmovinRespo
     }
 
     var responseModel *model.BitmovinResponse
-    err := api.apiClient.Post("/notifications/{notification_id}/unmute", &responseModel, reqParams)
+    err := api.apiClient.Post("/notifications/{notification_id}/unmute", struct{}{}, &responseModel, reqParams)
     return responseModel, err
 }
 
