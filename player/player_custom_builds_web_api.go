@@ -69,7 +69,7 @@ func (api *PlayerCustomBuildsWebApi) Start(customBuildId string) (*model.Bitmovi
     }
 
     var responseModel *model.BitmovinResponse
-    err := api.apiClient.Post("/player/custom-builds/web/{custom_build_id}/start", nil, &responseModel, reqParams)
+    err := api.apiClient.Post("/player/custom-builds/web/{custom_build_id}/start", &responseModel, reqParams)
     return responseModel, err
 }
 
