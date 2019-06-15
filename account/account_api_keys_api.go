@@ -31,7 +31,7 @@ func (api *AccountApiKeysApi) Create() (*model.AccountApiKey, error) {
     }
 
     var responseModel *model.AccountApiKey
-    err := api.apiClient.Post("/account/api-keys", &responseModel, reqParams)
+    err := api.apiClient.Post("/account/api-keys", nil, &responseModel, reqParams)
     return responseModel, err
 }
 
