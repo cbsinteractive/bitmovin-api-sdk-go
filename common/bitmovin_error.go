@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/bitmovin/bitmovin-api-sdk-go/model"
+	"github.com/cbsinteractive/bitmovin-api-sdk-go/model"
 	"encoding/json"
 	"fmt"
 )

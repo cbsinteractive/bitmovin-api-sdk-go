@@ -13,7 +13,7 @@ The full API reference can be found [here](https://bitmovin.com/docs).
 ## Installation:
 
 ```bash
-go get github.com/bitmovin/bitmovin-api-sdk-go
+go get github.com/cbsinteractive/bitmovin-api-sdk-go
 ```
 
 ## Initializiation
@@ -22,8 +22,8 @@ go get github.com/bitmovin/bitmovin-api-sdk-go
 package main
 
 import (
-    "github.com/bitmovin/bitmovin-api-sdk-go"
-    "github.com/bitmovin/bitmovin-api-sdk-go/common"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/common"
 )
 
 func main() {

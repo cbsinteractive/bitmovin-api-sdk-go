@@ -1,13 +1,13 @@
 package bitmovin
 import (
-    "github.com/bitmovin/bitmovin-api-sdk-go/common"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/common"
     
-    "github.com/bitmovin/bitmovin-api-sdk-go/account"
-    "github.com/bitmovin/bitmovin-api-sdk-go/analytics"
-    "github.com/bitmovin/bitmovin-api-sdk-go/encoding"
-    "github.com/bitmovin/bitmovin-api-sdk-go/general"
-    "github.com/bitmovin/bitmovin-api-sdk-go/notifications"
-    "github.com/bitmovin/bitmovin-api-sdk-go/player"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/account"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/analytics"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/encoding"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/general"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/notifications"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/player"
 )
 
 type BitmovinApi struct {

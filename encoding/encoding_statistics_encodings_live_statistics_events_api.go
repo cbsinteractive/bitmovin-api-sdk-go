@@ -1,8 +1,8 @@
 package encoding
 import (
-    "github.com/bitmovin/bitmovin-api-sdk-go/common"
-    "github.com/bitmovin/bitmovin-api-sdk-go/query"
-    "github.com/bitmovin/bitmovin-api-sdk-go/pagination"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/common"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/query"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/pagination"
 )
 
 type EncodingStatisticsEncodingsLiveStatisticsEventsApi struct {

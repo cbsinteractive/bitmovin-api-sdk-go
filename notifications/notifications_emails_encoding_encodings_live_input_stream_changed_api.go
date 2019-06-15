@@ -1,8 +1,8 @@
 package notifications
 import (
-    "github.com/bitmovin/bitmovin-api-sdk-go/common"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/common"
     
-    "github.com/bitmovin/bitmovin-api-sdk-go/model"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/model"
 )
 
 type NotificationsEmailsEncodingEncodingsLiveInputStreamChangedApi struct {

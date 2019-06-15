@@ -1,10 +1,10 @@
 package common
 
 import (
-	"github.com/bitmovin/bitmovin-api-sdk-go/log"
-	"github.com/bitmovin/bitmovin-api-sdk-go/rest"
-	"github.com/bitmovin/bitmovin-api-sdk-go/model"
-	"github.com/bitmovin/bitmovin-api-sdk-go/serialization"
+	"github.com/cbsinteractive/bitmovin-api-sdk-go/log"
+	"github.com/cbsinteractive/bitmovin-api-sdk-go/rest"
+	"github.com/cbsinteractive/bitmovin-api-sdk-go/model"
+	"github.com/cbsinteractive/bitmovin-api-sdk-go/serialization"
 
 	"encoding/json"
 	"fmt"

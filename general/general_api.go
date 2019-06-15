@@ -1,6 +1,6 @@
 package general
 import (
-    "github.com/bitmovin/bitmovin-api-sdk-go/common"
+    "github.com/cbsinteractive/bitmovin-api-sdk-go/common"
     
 )
 
